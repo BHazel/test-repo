@@ -5,7 +5,7 @@ Main entry point for the Multi-Agent Travel Planning System.
 import os
 from dotenv import load_dotenv
 from azure.identity import DefaultAzureCredential
-from azure.ai.agent import AIAgentClient
+from azure.ai.agents import AIAgentClient
 from src.agents.travel import TravelGroupChat
 
 

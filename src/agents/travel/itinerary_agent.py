@@ -3,7 +3,7 @@ Itinerary Agent
 Builds travel itineraries based on user travel requests.
 """
 
-from azure.ai.agent import Agent, AgentConfig
+from azure.ai.agents import Agent, AgentConfig
 
 
 class ItineraryAgent:

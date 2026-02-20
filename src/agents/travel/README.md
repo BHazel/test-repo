@@ -98,7 +98,7 @@ You can also use the agents programmatically in your own code:
 
 ```python
 from azure.identity import DefaultAzureCredential
-from azure.ai.agent import AIAgentClient
+from azure.ai.agents import AIAgentClient
 from src.agents.travel import TravelGroupChat
 
 # Initialize client

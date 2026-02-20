@@ -3,7 +3,7 @@ Group Chat Workflow
 Coordinates multiple agents in a group chat configuration for travel planning.
 """
 
-from azure.ai.agent import GroupChat, GroupChatManager
+from azure.ai.agents import GroupChat, GroupChatManager
 from .travel_agent import TravelAgent
 from .itinerary_agent import ItineraryAgent
 from .booking_agent import BookingAgent

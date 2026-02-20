@@ -3,7 +3,7 @@ Travel Agent - Orchestrator Agent
 Performs the main interaction with the user and coordinates the travel planning process.
 """
 
-from azure.ai.agent import Agent, AgentConfig
+from azure.ai.agents import Agent, AgentConfig
 
 
 class TravelAgent:

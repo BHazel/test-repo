@@ -3,7 +3,7 @@ Booking Agent
 Researches costs and availability for travel components.
 """
 
-from azure.ai.agent import Agent, AgentConfig
+from azure.ai.agents import Agent, AgentConfig
 
 
 class BookingAgent:

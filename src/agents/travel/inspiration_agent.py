@@ -3,7 +3,7 @@ Inspiration Agent
 Suggests additional ideas or alternatives for travel planning.
 """
 
-from azure.ai.agent import Agent, AgentConfig
+from azure.ai.agents import Agent, AgentConfig
 
 
 class InspirationAgent:
